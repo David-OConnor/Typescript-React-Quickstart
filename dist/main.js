@@ -87,7 +87,7 @@ exports.addOne = addOne;
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var additional = __webpack_require__(0);
-alert(additional.addOne(5));
+alert("Five plus One is " + additional.addOne(5));
 
 
 /***/ })

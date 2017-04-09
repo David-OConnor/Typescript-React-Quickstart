@@ -1,9 +1,14 @@
 {
   "compilerOptions": {
     "outDir": "./dist",
+    // This create js.map files along with the output file, allowing dev tools 
+    // to point to your source files.
     "sourceMap": true,
+    // Setting module to commonjs means output a javascript format any modern 
+    // browser can parse.
     "module": "commonjs",
     "target": "es5",
+    // jsx set to react means typescript's compiler will parse the JSX to javascript.
     "jsx": "react",
     "moduleResolution": "node",
     "removeComments": true
@@ -11,6 +16,8 @@
   },
 
   "include": [
+    // This will tell Typescript's TSC transpiler to parse all .ts and .tsx 
+    //files in the src directory.
     "./src/**/*"
   ],
 

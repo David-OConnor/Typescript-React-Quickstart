@@ -10,5 +10,5 @@ In addition to what's included in this repo, you'll need to have node.js install
 run 'npm install -g typescript' in a console to install Typescript globally.
 
 To use: run 'webpack' in a console in the main directory; this will cause Typescript's built-in transpiler (TSC)
-to convert all Typescript files in the src directory into ES5-compatible Javascript. Webpack will then convert React's JSX into javascript,
-and combine the files in a way that allows imports to work, in the dist directory.
+to convert all Typescript files in the src directory into ES5-compatible Javascript, and parse JSX.
+Webpack will then combine the files in a way that allows imports to work, in the dist directory.
